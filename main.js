@@ -20,7 +20,6 @@ function createBullet(ul_tag, text) {
     var itemText = document.createTextNode(text);
     li_item.appendChild(itemText);
     ul_tag.appendChild(li_item);
-    document.body.appendChild(ul_tag);
 }
 createBullet(ultag, "Cookies and Cream ice cream");
 createBullet(ultag, "Large chocolate chip cookies");
